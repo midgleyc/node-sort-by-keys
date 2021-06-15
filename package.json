@@ -1,0 +1,36 @@
+{
+  "name": "sort-by-keys",
+  "version": "1.0.0",
+  "description": "sort objects in arrays by their keys",
+  "repository": "github:midgleyc/node-sort-by-keys",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx mocha -r ts-node/register 'tests/**/*.test.ts'"
+  },
+  "keywords": [
+    "array",
+    "sort",
+    "multiple",
+    "properties",
+    "key",
+    "keys"
+  ],
+  "author": "Chris Midgley <chris.midgley@dunecomputers.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.8",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.12.2",
+    "mocha": "^9.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
