@@ -1,6 +1,6 @@
 import {strict as assert} from "assert"
 import {describe, it} from "mocha"
-import {sortByKey, reverseSortByKey} from "../src/index"
+import {sortByKey, reverseSortByKey} from "../src/index.js"
 
 describe("sort", function () {
   it("should sort by single key", function() {
